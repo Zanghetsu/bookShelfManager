@@ -25,9 +25,12 @@ This is a simple persistance terminal application for anyone, to manage the book
 * In the next step you will need to open the project in your favourite IDE (Integrated Development Environment), I'll advise using IntelliJ (as always if needed you can download it from [here](https://www.jetbrains.com/idea/download/#section=windows), also here is some handy [video](https://www.youtube.com/watch?v=9A425SE59SQ) for you to install the essentials for the project)
 * If the previous step is completed :  navigate to books.sql and run it either after you set up database connection in your IDE, or from terminal/command line. Remember: you NEED to be connected to one of your OWN database! 
 * As the final step, you will need to navigate to the BookDbManager, and fill out the required data between the "_______" as follows:
-	*dataSource.setDatabaseName("__________");  -> your database name (in which you have run the Books.sql file)
-        *dataSource.setUser("________");            -> your database user name 
-        *dataSource.setPassword("___________");     -> your very secret password
+<br>
+	* dataSource.setDatabaseName("__________");  -> your database name (in which you have run the Books.sql file)
+<br>
+        * dataSource.setUser("________");            -> your database user name 
+<br>
+	* dataSource.setPassword("___________");     -> your very secret password
 * Save the changes, reload maven if needed, run the application, read a lot, and maintain your book shelves up to date!
 
 ### Terms of use:
