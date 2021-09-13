@@ -2,7 +2,7 @@
 
 ## For those who still read...!
 
-###ABOUT:
+### ABOUT:
 
 This is a simple persistance terminal application for anyone, to manage the books that they have posession of.
 
@@ -10,12 +10,12 @@ This is a simple persistance terminal application for anyone, to manage the book
 * The mentioned actions can be both preformed regarding books and authors alike!
 
 
-###WARNING!
+### WARNING!
 
 * This is not an eyecandy project -> this app won't rob your reading time with flashy pop-ups!
 * It has a simplified view layer design avaliable in terminal, with clear instructions and menu options!
 
-###General Overview :
+### General Overview :
 
 * This project is created in Java 11 SE, with the usage of Postgre SQL relational database used for persisting your library information. The link between the layers is created with JDBC.
 
@@ -26,13 +26,13 @@ This is a simple persistance terminal application for anyone, to manage the book
 * If the previous step is completed :  navigate to books.sql and run it either after you set up database connection in your IDE, or from terminal/command line. Remember: you NEED to be connected to one of your OWN database! 
 * As the final step, you will need to navigate to the BookDbManager, and fill out the required data between the "_______" as follows:
 <br>
-	* dataSource.setDatabaseName("__________");  -> your database name (in which you have run the Books.sql file)
+ 	1. dataSource.setDatabaseName("__________");  -> your database name (in which you have run the Books.sql file)
 <br>
-        * dataSource.setUser("________");            -> your database user name 
+        2. dataSource.setUser("________");            -> your database user name 
 <br>
-	* dataSource.setPassword("___________");     -> your very secret password
+	3. dataSource.setPassword("___________");     -> your very secret password
 <br>
-* Save the changes, reload maven if needed, run the application, read a lot, and maintain your book shelves up to date!
+	4. Save the changes, reload maven if needed, run the application, read a lot, and maintain your book shelves up to date!
 
 ### Terms of use:
 
