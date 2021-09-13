@@ -31,6 +31,7 @@ This is a simple persistance terminal application for anyone, to manage the book
         * dataSource.setUser("________");            -> your database user name 
 <br>
 	* dataSource.setPassword("___________");     -> your very secret password
+<br>
 * Save the changes, reload maven if needed, run the application, read a lot, and maintain your book shelves up to date!
 
 ### Terms of use:
